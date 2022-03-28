@@ -12,14 +12,22 @@ Notebooks
 =========
 
 User notebooks should be stored in the notebooks directory.
-Many users find it useful to organize their notebooks according to the site in which they are meant to be used and/or the platform from which they are meant to be run (e.g. the summit Nublado instance).
-For this reason, site-specific folders have been created but are not required to be used.
+Many users find it useful to organize their notebooks according to the site in which they are meant to be used and/or the platform from which they are meant to be run (e.g. summit, tts, usdf, ncsa).
+For this reason, the example notebook is in a site-specific folder (summit).
 
 Methods
 =======
 
 User methods developed to support notebooks should be stored in the python directory.
 It is strongly recommended to follow Rubin development formats/practices to standardize behavior and minimize the overhead when sharing/running each others code.
+This repo is eups compatible.
+If a user wishes to develop their own support methods, this repo must be setup prior to importing them.
+
+One way to setup this repo is to add the following to the ~/notebooks/.user_setups file:
+
+.. code-block:: 
+
+    setup -j notebooks_pingraham -r ~/develop/notebooks_pingraham
 
 
 Tests
