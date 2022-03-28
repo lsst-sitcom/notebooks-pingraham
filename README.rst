@@ -1,6 +1,5 @@
-#########################################################
-Personal SIT-Com Notebook Repository for Patrick Ingraham
-#########################################################
+Rubin Observatory Personal SIT-Com Notebook Repository
+######################################################
 
 This repository is to store and organize notebooks and any associated methods which contain Rubin related work but are not meant for public consumption and are not expected to be supported by the author.
 The reason for creation of this repo is to ensure work is documented and stored in a place that is available by all SIT-Com personnel.
@@ -13,10 +12,8 @@ Notebooks
 =========
 
 User notebooks should be stored in the notebooks directory.
-Many users find it useful to organize their notebooks according to the site in which they are meant to be used.
+Many users find it useful to organize their notebooks according to the site in which they are meant to be used and/or the platform from which they are meant to be run (e.g. the summit Nublado instance).
 For this reason, site-specific folders have been created but are not required to be used.
-The 
-
 
 Methods
 =======
